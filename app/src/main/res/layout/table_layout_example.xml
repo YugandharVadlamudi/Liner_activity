@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TableRow android:background="@color/abc_search_url_text">
+    <Button
+        style="@style/btnStyle"
+        android:text="demo string"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="demo string"
+        />
+</TableRow>
+    <TableRow android:background="@color/abc_search_url_text">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="demo string"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="demo string"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="demo string"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="demo string"
+            />
+    </TableRow>
+    <!-- layout_columna to specify the element to be placed-->
+    <TableRow android:background="@color/abc_search_url_text">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="demo string"
+            android:layout_column="2"
+            />
+
+    </TableRow>
+    <!-- layout_span with no with number-->
+    <TableRow android:background="@color/abc_search_url_text">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="demo string"
+            android:layout_span="4"
+            />
+
+    </TableRow>
+</TableLayout>
